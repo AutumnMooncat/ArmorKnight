@@ -1,0 +1,14 @@
+{
+  "${ModID}:TheArmorKnight": {
+    "NAMES": [
+      "The Armor Knight",
+      "the Armor Knight",
+      "The Knight"
+    ],
+    "TEXT": [
+      "A graduate of a military academy specialized in defense. NL Her armor keeps her protected on the frontline.",
+      "You tank the heart.",
+      "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~plated~ ~one,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~"
+    ]
+  }
+}

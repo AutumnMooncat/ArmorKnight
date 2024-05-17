@@ -1,0 +1,82 @@
+{
+  "${ModID}:LosePowerPower": {
+    "NAME": "Lose ",
+    "DESCRIPTIONS": ["At the end of your turn, lose #b"," ","."]
+  },
+  "${ModID}:NextTurnPowerPower": {
+    "NAME": "Next Turn ",
+    "DESCRIPTIONS": ["Next turn, gain #b"," ","."]
+  },
+  "${ModID}:BracedPower": {
+    "NAME": "Braced",
+    "DESCRIPTIONS": ["Your next #yBlock gaining card gains #b"," additional #yBlock."]
+  },
+  "${ModID}:ExposedPower": {
+    "NAME": "Exposed",
+    "DESCRIPTIONS": ["Takes #b"," more damage from Attacks this turn."]
+  },
+  "${ModID}:StaggerPower": {
+    "NAME": "Staggered",
+    "DESCRIPTIONS": ["Deals #b"," less damage with Attacks this turn."]
+  },
+  "${ModID}:CardToHandPower": {
+    "NAME": " Next Turn",
+    "DESCRIPTIONS": ["Next turn, add "," into your hand."," copies of "]
+  },
+  "${ModID}:HeavyMetalPower": {
+    "NAME": "Heavy Metal",
+    "DESCRIPTIONS": ["At the start of your turn, add #b"," #yPlating into your hand."]
+  },
+  "${ModID}:HoldTheLinePower": {
+    "NAME": "Hold The Line",
+    "DESCRIPTIONS": ["Whenever you play a card that costs #b0, gain #b"," #yBlock."]
+  },
+  "${ModID}:CounterPower": {
+    "NAME": "Counter",
+    "DESCRIPTIONS": ["When attacked this turn, deals #b"," damage back."]
+  },
+  "${ModID}:AggroAuraPower": {
+    "NAME": "Aggro Aura",
+    "DESCRIPTIONS": ["Attacks deal #b","% more damage while you have a debuff."]
+  },
+  "${ModID}:CounterCursePower": {
+    "NAME": "Counter Curse",
+    "DESCRIPTIONS": ["Whenever you receive #yWeak or #yVulnerable, apply #b"," of that debuff to ALL enemies"]
+  },
+  "${ModID}:PitcherPower": {
+    "NAME": "Pitcher",
+    "DESCRIPTIONS": ["#yThrown cards deal #b"," additional damage."]
+  },
+  "${ModID}:FlamethrowerPower": {
+    "NAME": "Flamethrower",
+    "DESCRIPTIONS": ["Whenever a card is #yExhausted, deal #b"," damage to ALL enemies."]
+  },
+  "${ModID}:ExNihiloPower": {
+    "NAME": "Ex Nihilo",
+    "DESCRIPTIONS": ["Whenever a card is created during combat, gain #b"," #yBlock."]
+  },
+  "${ModID}:FlarePower": {
+    "NAME": "Flare",
+    "DESCRIPTIONS": ["Whenever you gain #yBlock, deal #b"," damage to ALL enemies."]
+  },
+  "${ModID}:WideGuardPower": {
+    "NAME": "Wide Guard",
+    "DESCRIPTIONS": ["Whenever you gain #yBlock from a card, also gain #b"," #yBlock next turn."]
+  },
+  "${ModID}:PulsePower": {
+    "NAME": "Pulse",
+    "DESCRIPTIONS": ["Whenever you discard a card during your turn, draw #b"," card."," cards."]
+  },
+  "${ModID}:SolidPower": {
+    "NAME": "Solid Form",
+    "DESCRIPTIONS": ["At the start of your turn, deal damage to a random enemy equal to your leftover #yBlock #b"," time."," times."]
+  },
+  "${ModID}:FloatPower": {
+    "NAME": "Float",
+    "DESCRIPTIONS": ["Receive #b50% less damage from #yAttacks this turn.","Receive #b50% less damage from #yAttacks for #b"," turns."]
+  },
+  "${ModID}:ShockingGraspPower": {
+    "NAME": "Shocking Grasp",
+    "DESCRIPTIONS": ["Whenever you deal unblocked attack damage, the enemy loses #b"," #yStrength this turn."]
+  }
+}

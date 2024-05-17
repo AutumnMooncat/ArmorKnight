@@ -1,0 +1,80 @@
+[
+  {
+    "ID": "braced",
+    "PROPER_NAME": "Braced",
+    "NAMES": [
+      "braced"
+    ],
+    "DESCRIPTION": "Your next #yBlock gaining card gains additional #yBlock."
+  },
+  {
+    "ID": "exposed",
+    "PROPER_NAME": "Exposed",
+    "NAMES": [
+      "expose",
+      "exposed"
+    ],
+    "DESCRIPTION": "Exposed creatures take more damage from Attacks this turn."
+  },
+  {
+    "ID": "stagger",
+    "PROPER_NAME": "Staggered",
+    "NAMES": [
+      "stagger",
+      "staggered"
+    ],
+    "DESCRIPTION": "Staggered creatures deal less damage with Attacks this turn."
+  },
+  {
+    "ID": "guide",
+    "PROPER_NAME": "Guide",
+    "NAMES": [
+      "guide",
+      "guided"
+    ],
+    "DESCRIPTION": "Place a card on top of your draw pile."
+  },
+  {
+    "ID": "clutch",
+    "PROPER_NAME": "Clutch",
+    "NAMES": [
+      "clutch",
+      "clutched"
+    ],
+    "DESCRIPTION": "Right Click to #rExhaust this card and trigger an effect."
+  },
+  {
+    "ID": "weight",
+    "PROPER_NAME": "Weight [${ModID}:WeightIcon]",
+    "NAMES": [
+      "weight"
+    ],
+    "DESCRIPTION": "A property of a card used for various effects."
+  },
+  {
+    "ID": "plateable",
+    "PROPER_NAME": "Plateable",
+    "NAMES": [
+      "plateable"
+    ],
+    "DESCRIPTION": "Right Click to #yExhaust a #yPlating to increase this card's damage, #yBlock, and #yWeight."
+  },
+  {
+    "ID": "throw",
+    "PROPER_NAME": "Throw",
+    "NAMES": [
+      "throw",
+      "thrown"
+    ],
+    "DESCRIPTION": "Thrown cards are discarded and deal damage equal to their #yWeight."
+  },
+  {
+    "ID": "Sadistic",
+    "PROPER_NAME": "Sadistic",
+    "NAMES": [
+      "sadism",
+      "sadistic"
+    ],
+    "DESCRIPTION": "Whenever you apply a debuff to an enemy, they take damage."
+  }
+]

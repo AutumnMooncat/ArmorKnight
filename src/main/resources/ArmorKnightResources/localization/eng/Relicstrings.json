@@ -1,0 +1,18 @@
+{
+  "${ModID}:HolyPlatemail": {
+    "NAME": "Trimmed Plate",
+    "FLAVOR": "It looks fancier, so it has to be stronger.",
+    "DESCRIPTIONS": [
+      "Replaces [#c66cb3]Full [#c66cb3]Plate. At the start of your first #b3 turns, gain #b10 #yBlock.",
+      "Block gained: "," NL Per turn: "," NL Per combat: "
+    ]
+  },
+  "${ModID}:Platemail": {
+    "NAME": "Full Plate",
+    "FLAVOR": "Can take a beating.",
+    "DESCRIPTIONS": [
+      "Start each combat with #b10 #yBlock.",
+      "Block gained: "," NL Per turn: "," NL Per combat: "
+    ]
+  }
+}

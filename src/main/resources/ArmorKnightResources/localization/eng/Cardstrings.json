@@ -1,0 +1,337 @@
+{
+  "${ModID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Main description",
+    "UPGRADE_DESCRIPTION": "Upgrade description",
+    "EXTENDED_DESCRIPTION": ["Extra Stuff"]
+  },
+  "${ModID}:Plating": {
+    "NAME": "Plating",
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust."
+  },
+  "${ModID}:Absorb": {
+    "NAME": "Absorb",
+    "DESCRIPTION": "Exhaust 1 card. NL Gain [E] equal to its ${ModID}:Weight."
+  },
+  "${ModID}:AggroAura": {
+    "NAME": "Aggro Aura",
+    "DESCRIPTION": "Attacks deal {@@}{!M!|0=0%|1=50%|2=100%|3=150%|4=200%|5=250%|6=300%|@=a lot} more damage if you have a debuff.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Attacks deal {@@}{!M!|0=0%|1=50%|2=100%|3=150%|4=200%|5=250%|6=300%|@=a lot} more damage if you have a debuff."
+  },
+  "${ModID}:Backpacking": {
+    "NAME": "Backpacking",
+    "DESCRIPTION": "Unplayable. NL Ethereal. NL When you draw this card, draw !M! cards.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${ModID}:Blaster": {
+    "NAME": "Blaster",
+    "DESCRIPTION": "Deal !D! damage. NL Upgrade !M! random card{@@}{!M!|>1=s} in your hand for the rest of combat."
+  },
+  "${ModID}:Backswing": {
+    "NAME": "Backswing",
+    "DESCRIPTION": "Deal !D! damage. NL Upgrade a card in your hand for the rest of combat.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Upgrade all cards in your hand for the rest of combat."
+  },
+  "${ModID}:BodyPress": {
+    "NAME": "Body Press",
+    "DESCRIPTION": "Gain !B! Block. NL Deal damage equal to your Block.",
+    "EXTENDED_DESCRIPTION": [" NL (Deals !D! damage.)"]
+  },
+  "${ModID}:BuckleUp": {
+    "NAME": "Buckle Up",
+    "DESCRIPTION": "Gain !B! Block. NL Draw !M! card{@@}{!M!|>1=s}. NL ${ModID}:Throw !M! card{@@}{!M!|>1=s}."
+  },
+  "${ModID}:CardSharp": {
+    "NAME": "Card Sharp",
+    "DESCRIPTION": "Draw !M! cards. NL ${ModID}:Throw 1 card."
+  },
+  "${ModID}:ChainShock": {
+    "NAME": "Chain Shock",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add a copy of this card into your discard pile."
+  },
+  "${ModID}:Cheat": {
+    "NAME": "Cheat",
+    "DESCRIPTION": "Choose 1 card that costs 1 or more. NL It costs 0 this combat. NL Exhaust."
+  },
+  "${ModID}:CloseCombat": {
+    "NAME": "Close Combat",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain 1 Weak."
+  },
+  "${ModID}:Compress": {
+    "NAME": "Compress",
+    "DESCRIPTION": "Increase the ${ModID}:Weight of ALL your cards by X{@@}{!M!|>0=+!M!}."
+  },
+  "${ModID}:Conversion": {
+    "NAME": "Conversion",
+    "DESCRIPTION": "Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} . NL Gain 1 Weak."
+  },
+  "${ModID}:CounterCurse": {
+    "NAME": "Counter Curse",
+    "DESCRIPTION": "Whenever you receive Weak or Vulnerable, apply !M! of that debuff to ALL enemies."
+  },
+  "${ModID}:CrushingBlow": {
+    "NAME": "Crushing Blow",
+    "DESCRIPTION": "Deal !D! damage. NL Apply Vulnerable equal to this card's ${ModID}:Weight."
+  },
+  "${ModID}:CursedBlade": {
+    "NAME": "Cursed Blade",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever you receive a debuff, increase this card's damage by !M! ths combat."
+  },
+  "${ModID}:CursedShell": {
+    "NAME": "Cursed Shell",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 1 Vulnerable."
+  },
+  "${ModID}:DartThrow": {
+    "NAME": "Dart Throw",
+    "DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, deal !M! damage to ALL enemies.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${ModID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:DireStrike": {
+    "NAME": "Dire Strike",
+    "DESCRIPTION": "Deal !D! damage. NL If you have a debuff, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
+  },
+  "${ModID}:DragonPiercer": {
+    "NAME": "Dragon Piercer",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Weak to ALL enemies."
+  },
+  "${ModID}:DrainPunch": {
+    "NAME": "Drain Punch",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy loses !M! Strength this turn."
+  },
+  "${ModID}:ExNihilo": {
+    "NAME": "Ex Nihilo",
+    "DESCRIPTION": "Whenever a card is created during combat, gain !M! Block."
+  },
+  "${ModID}:ExtremeSpeed": {
+    "NAME": "Extreme Speed",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards."
+  },
+  "${ModID}:FastHands": {
+    "NAME": "Fast Hands",
+    "DESCRIPTION": "Draw !M! card{@@}{!M!|>1=s}. NL ${ModID}:Throw !M! card{!M!|>1=s}."
+  },
+  "${ModID}:FiftyTwoPickup": {
+    "NAME": "52 Pickup",
+    "DESCRIPTION": "${ModID}:Throw your draw pile.{@@}{!Location!|0= NL (Deals !${ModID}:I! damage.)} NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Throw your draw pile.{@@}{!Location!|0= NL (Deals !${ModID}:I! damage.)}"
+  },
+  "${ModID}:FinishingTouch": {
+    "NAME": "Finishing Touch",
+    "DESCRIPTION": "Deal damage equal to the number of cards played this combat.",
+    "EXTENDED_DESCRIPTION": [" NL (Deals !D! damage.)"]
+  },
+  "${ModID}:Firewall": {
+    "NAME": "Firewall",
+    "DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, gain !B! Block.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${ModID}:Fireworks": {
+    "NAME": "Fireworks",
+    "DESCRIPTION": "Unplayable. NL If this card is discarded from your hand, watch !M! fireworks.",
+    "EXTENDED_DESCRIPTION": [
+      "I can't play this card."
+    ]
+  },
+  "${ModID}:Flamethrower": {
+    "NAME": "Flamethrower",
+    "DESCRIPTION": "Whenever a card is Exhausted, deal !M! damage to ALL enemies."
+  },
+  "${ModID}:Flare": {
+    "NAME": "Flare",
+    "DESCRIPTION": "Whenever you gain Block, deal !M! damage to ALL enemies."
+  },
+  "${ModID}:Fling": {
+    "NAME": "Fling",
+    "DESCRIPTION": "${ModID}:Throw 1 card. NL Apply !M! Vulnerable."
+  },
+  "${ModID}:Float": {
+    "NAME": "Float",
+    "DESCRIPTION": "Take 50% less damage from Attacks for !M! turns."
+  },
+  "${ModID}:FormalComplaint": {
+    "NAME": "Formal Complaint",
+    "DESCRIPTION": "Remove your Weak and Vulnerable. NL Apply them to the enemy."
+  },
+  "${ModID}:GalahadsShield": {
+    "NAME": "Galahad's Shield",
+    "DESCRIPTION": "Gain !B! Block. NL If you Upgrade a Defend, Upgrade this.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block."
+  },
+  "${ModID}:Grapple": {
+    "NAME": "Grapple",
+    "DESCRIPTION": "Apply !M! Weak. NL Apply !M! Vulnerable. NL Gain 1 Vulnerable."
+  },
+  "${ModID}:Guillotine": {
+    "NAME": "Guillotine",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Minions have their HP set to 0."
+  },
+  "${ModID}:HeadHunter": {
+    "NAME": "Head Hunter",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL For each enemy this kills, gain [E] and draw 1 card."
+  },
+  "${ModID}:HeavyMetal": {
+    "NAME": "Heavy Metal",
+    "DESCRIPTION": "At the start of your turn, add !M! *Plating into your hand.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, add !M! *Plating into your hand."
+  },
+  "${ModID}:HeavySlam": {
+    "NAME": "Heavy Slam",
+    "DESCRIPTION": "Deal damage equal to the total ${ModID}:Weight of your held cards{@@}{!M!|>0= +!M!}.",
+    "EXTENDED_DESCRIPTION": [" NL (Deals !D! damage.)"]
+  },
+  "${ModID}:HerosShield": {
+    "NAME": "Hero's Shield",
+    "DESCRIPTION": "Gain !B! Block. NL Upgrade !M! random card{@@}{!M!|>1=s} in your hand for the rest of combat."
+  },
+  "${ModID}:HoldTheLine": {
+    "NAME": "Hold the Line",
+    "DESCRIPTION": "Whenever you play a card that costs 0, gain !M! Block."
+  },
+  "${ModID}:IronHead": {
+    "NAME": "Iron Head",
+    "DESCRIPTION": "Deal !D! damage. NL Add !M! *Plating into your hand."
+  },
+  "${ModID}:IronKnee": {
+    "NAME": "Iron Knee",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable."
+  },
+  "${ModID}:Jab": {
+    "NAME": "Jab",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy has a debuff, deal !D! damage again."
+  },
+  "${ModID}:Jettison": {
+    "NAME": "Jettison",
+    "DESCRIPTION": "${ModID}:Throw your hand, then draw that many cards.{@@}{!Location!|0= NL (Deals !${ModID}:I! damage.)} NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${ModID}:Throw your hand, then draw that many cards.{@@}{!Location!|0= NL (Deals !${ModID}:I! damage.)}"
+  },
+  "${ModID}:JumpKick": {
+    "NAME": "Jump Kick",
+    "DESCRIPTION": "Deal !D! damage. NL Gain 1 Vulnerable."
+  },
+  "${ModID}:Manifest": {
+    "NAME": "Manifest",
+    "DESCRIPTION": "Add *Plating into your hand until it is full. NL Exhaust."
+  },
+  "${ModID}:MassDriver": {
+    "NAME": "Mass Driver",
+    "DESCRIPTION": "Deal damage equal to !M! times this card's ${ModID}:Weight.",
+    "EXTENDED_DESCRIPTION": [" NL (Deals !D! damage.)"]
+  },
+  "${ModID}:MuscleThrough": {
+    "NAME": "Muscle Through",
+    "DESCRIPTION": "Gain !B! Block. NL If you have a debuff, gain !M! additional Block."
+  },
+  "${ModID}:NoblesseOblige": {
+    "NAME": "Noblesse Oblige",
+    "DESCRIPTION": "Increase the ${ModID}:Weight of all cards in your hand by !M! for the rest of combat. NL Gain 1 Weak."
+  },
+  "${ModID}:Opener": {
+    "NAME": "Opener",
+    "DESCRIPTION": "Deal !D! damage. NL The next {@@}{!M!|>1=!M! }Attack{!M!|>1=s} you play cost{!M!|1=s} 0."
+  },
+  "${ModID}:Overexert": {
+    "NAME": "Overexert",
+    "DESCRIPTION": "Draw !M! cards. NL Gain 2 Weak. NL Exhaust."
+  },
+  "${ModID}:Pitcher": {
+    "NAME": "Pitcher",
+    "DESCRIPTION": "${ModID}:Thrown cards deal !M! additional damage."
+  },
+  "${ModID}:PlateUp": {
+    "NAME": "Plate Up",
+    "DESCRIPTION": "Add !M! *Plating into your hand."
+  },
+  "${ModID}:PowerSurge": {
+    "NAME": "Power Surge",
+    "DESCRIPTION": "Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} . NL Can be Upgraded any number of times."
+  },
+  "${ModID}:Pulse": {
+    "NAME": "Pulse",
+    "DESCRIPTION": "Whenever you discard a card during your turn, draw !M! card{@@}{!M!|>1=s}."
+  },
+  "${ModID}:Rally": {
+    "NAME": "Rally",
+    "DESCRIPTION": "Gain !M! Dexterity. NL At the end of this turn, lose !M! Dexterity."
+  },
+  "${ModID}:RandomBullshitGo": {
+    "NAME": "Random Bullshit Go",
+    "DESCRIPTION": "Choose 1 of 3 random cards to ${ModID}:Throw !M! times. NL Exhaust."
+  },
+  "${ModID}:Repurpose": {
+    "NAME": "Repurpose",
+    "DESCRIPTION": "Exhaust 1 card. NL Add a number of *Plating into your hand equal to its ${ModID}:Weight."
+  },
+  "${ModID}:Revenge": {
+    "NAME": "Revenge",
+    "DESCRIPTION": "Deal !D! damage. NL Deals double damage if you have a debuff."
+  },
+  "${ModID}:RiftRipper": {
+    "NAME": "Rift Ripper",
+    "DESCRIPTION": "Deal !D! damage. NL Exhaust 1 card."
+  },
+  "${ModID}:Shelter": {
+    "NAME": "Shelter",
+    "DESCRIPTION": "Gain !B! Block. NL Remove !M! of your debuffs."
+  },
+  "${ModID}:ShockingGrasp": {
+    "NAME": "Shocking Grasp",
+    "DESCRIPTION": "Whenever an Attack deals unblocked damage, the enemy loses !M! Strength this turn."
+  },
+  "${ModID}:SkillIssue": {
+    "NAME": "Skill Issue",
+    "DESCRIPTION": "${ModID}:Throw all Skills in your hand. NL Gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]}{!Location!|0= NL (Deals !${ModID}:I! damage.)}"
+  },
+  "${ModID}:SliceAndDice": {
+    "NAME": "Slice and Dice",
+    "DESCRIPTION": "Deal !D! damage for each card in your hand."
+  },
+  "${ModID}:SolidForm": {
+    "NAME": "Solid Form",
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, deal damage to a random enemy equal to your leftover Block{@@}{!M!|>1= !M! times}.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, deal damage to a random enemy equal to your leftover Block{@@}{!M!|>1= !M! times}."
+  },
+  "${ModID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${ModID}:TakeDown": {
+    "NAME": "Take Down",
+    "DESCRIPTION": "Deal !D! damage. NL If you have discarded a card this turn, gain {@@}{!M!|1=[E]|2=[E] [E]|3=[E] [E] [E]|@=!M! [E]} ."
+  },
+  "${ModID}:Taunt": {
+    "NAME": "Taunt",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak."
+  },
+  "${ModID}:Torment": {
+    "NAME": "Torment",
+    "DESCRIPTION": "Deal !D! damage. NL Deals !M! additional damage for each unique debuff on the enemy."
+  },
+  "${ModID}:Trounce": {
+    "NAME": "Trounce",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Gain Block equal to unblocked damage dealt"
+  },
+  "${ModID}:WeaponsReady": {
+    "NAME": "Weapons Ready",
+    "DESCRIPTION": "Choose an Attack that costs X or less. NL Play it twice and exhaust it. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose an Attack that costs X or less. NL Play it twice and exhaust it.",
+    "EXTENDED_DESCRIPTION": ["Play"]
+  },
+  "${ModID}:WeightedDraw": {
+    "NAME": "Weighted Draw",
+    "DESCRIPTION": "Draw !M! cards. NL Increase their ${ModID}:Weight by !M!."
+  },
+  "${ModID}:WideGuard": {
+    "NAME": "Wide Guard",
+    "DESCRIPTION": "Whenever you gain Block from a card, also gain !M! Block next turn."
+  }
+}
