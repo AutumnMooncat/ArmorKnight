@@ -2,15 +2,22 @@ package ArmorKnight.vfx;
 
 import ArmorKnight.MainModfile;
 import ArmorKnight.util.Wiz;
+import basemod.ReflectionHacks;
 import basemod.helpers.VfxBuilder;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.MathUtils;
+import com.evacipated.cardcrawl.modthespire.Loader;
+import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
+import com.evacipated.cardcrawl.modthespire.lib.SpirePatch2;
+import com.evacipated.cardcrawl.modthespire.lib.SpireRawPatch;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.Hitbox;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 import com.megacrit.cardcrawl.vfx.FireBurstParticleEffect;
+import javassist.*;
 
 public class VFXContainer {
     public static AbstractGameEffect hitBounce(Texture tex, float scale, Hitbox target) {
@@ -51,6 +58,24 @@ public class VFXContainer {
                 .velocity(MathUtils.random(0f, 360f), MathUtils.random(200f, 800f))
                 .setColor(c)
                 .fadeOut(0.5f);
-        return builder.build();
+        AbstractGameEffect effect = builder.build();
+        try {
+            ReflectionHacks.setPrivate(effect, Class.forName("basemod.helpers.VfxBuilder$BuiltEffect"), "lightsOutSupport", true);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        return effect;
+    }
+
+    @SpirePatch2(clz = CardCrawlGame.class, method = SpirePatch.CONSTRUCTOR)
+    public static class LightsOutSupport {
+        @SpireRawPatch
+        public static void plz (CtBehavior ctBehavior) throws NotFoundException, CannotCompileException {
+            CtClass ctClass = ctBehavior.getDeclaringClass().getClassPool().getCtClass("basemod.helpers.VfxBuilder$BuiltEffect");
+            ctClass.setModifiers(Modifier.PUBLIC);
+            ctClass.addField(new CtField(CtClass.booleanType, "lightsOutSupport", ctClass));
+            ctClass.addMethod(CtNewMethod.make("public float[] _lightsOutGetXYRI() {if (!lightsOutSupport) {return new float[] {0f, 0f, 0f, 0f};} return new float[] {builder.x - (builder.img.originalWidth / 2.0F - builder.img.offsetX), builder.y - (builder.img.originalHeight / 2.0F - builder.img.offsetY), 150f, 0.05f};}", ctClass));
+            ctClass.addMethod(CtNewMethod.make("public com.badlogic.gdx.graphics.Color[] _lightsOutGetColor() {return new com.badlogic.gdx.graphics.Color[] {builder.color};}", ctClass));
+        }
     }
 }
